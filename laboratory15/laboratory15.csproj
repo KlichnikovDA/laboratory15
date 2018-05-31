@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Librarium\Librarium.csproj">
+      <Project>{e86f7dde-c1cd-42b2-9d83-a96ca4ae320d}</Project>
+      <Name>Librarium</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
